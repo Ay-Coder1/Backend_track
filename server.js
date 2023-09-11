@@ -20,8 +20,9 @@ app.get('/api', (req, res) => {
     current_day: currentDay,
     utc_time: utcTime,
     track,
-    github_file_url: "https://github.com/Ay-coder1/repo/blob/main/file_name.ext",
-    github_repo_url: "https://github.com/Ay-coder1/repo",
+    github_file_url:
+      "https://github.com/Ay-coder1/Backend_track/blob/main/server.js",
+    github_repo_url: "https://github.com/Ay-coder1/Backend_track",
     status_code: 200,
   };
 
