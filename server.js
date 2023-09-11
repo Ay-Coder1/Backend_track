@@ -4,7 +4,7 @@ const app = express();
 // Define a route that handles GET requests
 app.get('/api', (req, res) => {
   // Parse query parameters
-  const { slack_name, track } = req.query;
+  const { Babarinde_Ayomide_Emmanuel, track } = req.query;
 
   // Get the current day of the week
   const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
@@ -16,7 +16,7 @@ app.get('/api', (req, res) => {
 
   // Construct the JSON response
   const response = {
-    slack_name,
+    Babarinde_Ayomide_Emmanuel,
     current_day: currentDay,
     utc_time: utcTime,
     track,
